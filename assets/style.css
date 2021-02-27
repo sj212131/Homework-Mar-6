@@ -1,0 +1,14 @@
+:root {
+    --gray: #2F4F4F;
+    --yellowgreen: 	#7FFFD4;
+  }
+
+.jumbotron,
+.btn {
+    background-color: var(--yellowgreen);
+    color: var(--gray);
+}
+
+.btn {
+    border-color:var(--yellowgreen);
+}
