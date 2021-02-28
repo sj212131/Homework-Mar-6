@@ -1,0 +1,47 @@
+* {
+  font-family:'Caveat', cursive, 'Indie Flower', cursive, 'Shadows Into Light', cursive, serif;
+  font-size: x-large;
+}
+
+
+:root {
+  --gray: #2F4F4F;
+  --cyanBlue: 	#7FFFD4;
+  --past: #B8B4B3;
+  --present: #FFFEB5;
+  --future: #B5FFEC;
+}
+
+.input-group-text,
+.jumbotron,
+.btn {
+  background-color: var(--cyanBlue);
+  color: var(--gray);
+}
+
+.textarea {
+  text-align: center;
+}
+
+.textarea:hover{
+  box-shadow: 0 0 10px yellowgreen;
+}
+
+.btn:hover {
+  background-color:yellowgreen;
+}
+
+.past {
+  background-color: var(--past) ;
+}
+
+.present {
+  background-color: var(--present);
+}
+.future {
+  background-color: var(--cyanBlue);
+}
+
+footer {
+  text-align: center;
+}

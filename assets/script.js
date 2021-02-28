@@ -32,7 +32,7 @@ var button3 = $("#button3pm")
 var button4 = $("#button4pm")
 var button5 = $("#button5pm")
 
-console.log(now)
+
 //Date&time
 function handleTimeDisplay(){
   var currentTime = moment().format("MMM DD, YYYY dddd hh:mm:ss A");
