@@ -1,7 +1,7 @@
 window.onload = function(){
   colorCode();
   dataNine();
-  // tenAM();
+  dataTen();
   // elevenAM();
   // twelvePM();
   // onePM();
@@ -126,128 +126,22 @@ button10.on("click", function(){
 });
 
 // // 11AM
-// function elevenAM() {
-//   var input_textarea3 = document.querySelector("#comment11am");
-//   var output_div3 = document.querySelector("#comment11am");
-//   var save_button3 = document.querySelector("#button11am");
-
-//   save_button3.addEventListener("click", updateOutput3);
-
-//   output_div3.textContent = localStorage.getItem("content3");
-//   input_textarea3.value = localStorage.getItem("content3");
-
-//   function updateOutput3() {
-//     localStorage.setItem("content3", input_textarea3.value);
-
-//     output_div3.textContent = input_textarea3.value;
-//   }
-// }
-
+function dataEle() {
+  event11.text (localStorage.getItem("content2"));
+}
+button11.on("click", function(){
+  localStorage.setItem("content3", event11.val());
+});
 // // 12PM
-// function twelvePM() {
-//   var input_textarea4 = document.querySelector("#comment12pm");
-//   var output_div4 = document.querySelector("#comment12pm");
-//   var save_button4 = document.querySelector("#button12pm");
-
-//   save_button4.addEventListener("click", updateOutput4);
-
-//   output_div4.textContent = localStorage.getItem("content4");
-//   input_textarea4.value = localStorage.getItem("content4");
-
-//   function updateOutput4() {
-//     localStorage.setItem("content4", input_textarea4.value);
-
-//     output_div4.textContent = input_textarea4.value;
-//   }
-// }
 
 // // 1PM
-// function onePM() {
-//   var input_textarea5 = document.querySelector("#comment1pm");
-//   var output_div5 = document.querySelector("#comment1pm");
-//   var save_button5 = document.querySelector("#button1pm");
-
-//   save_button5.addEventListener("click", updateOutput5);
-
-//   output_div5.textContent = localStorage.getItem("content5");
-//   input_textarea5.value = localStorage.getItem("content5");
-
-//   function updateOutput5() {
-//     localStorage.setItem("content5", input_textarea5.value);
-
-//     output_div5.textContent = input_textarea5.value;
-//   }
-// }
 
 // // 2PM
-// function twoPM() {
-//   var input_textarea6 = document.querySelector("#comment2pm");
-//   var output_div6 = document.querySelector("#comment2pm");
-//   var save_button6 = document.querySelector("#button2pm");
-
-//   save_button6.addEventListener("click", updateOutput6);
-
-//   output_div6.textContent = localStorage.getItem("content6");
-//   input_textarea6.value = localStorage.getItem("content6");
-
-//   function updateOutput6() {
-//     localStorage.setItem("content6", input_textarea6.value);
-
-//     output_div6.textContent = input_textarea6.value;
-//   }
-// }
 
 // // 3PM
-// function threePM() {
-//   var input_textarea7 = document.querySelector("#comment3pm");
-//   var output_div7 = document.querySelector("#comment3pm");
-//   var save_button7 = document.querySelector("#button3pm");
-
-//   save_button7.addEventListener("click", updateOutput7);
-
-//   output_div7.textContent = localStorage.getItem("content7");
-//   input_textarea7.value = localStorage.getItem("content7");
-
-//   function updateOutput7() {
-//     localStorage.setItem("content7", input_textarea7.value);
-
-//     output_div7.textContent = input_textarea7.value;
-//   }
-// }
 
 // // 4PM
-// function fourPM() {
-//   var input_textarea8 = document.querySelector("#comment4pm");
-//   var output_div8 = document.querySelector("#comment4pm");
-//   var save_button8 = document.querySelector("#button4pm");
-
-//   save_button8.addEventListener("click", updateOutput8);
-
-//   output_div8.textContent = localStorage.getItem("content8");
-//   input_textarea8.value = localStorage.getItem("content8");
-
-//   function updateOutput8() {
-//     localStorage.setItem("content8", input_textarea8.value);
-
-//     output_div8.textContent = input_textarea8.value;
-//   }
-// }
 
 // // 5PM
-// function fivePM() {
-//   var input_textarea9 = document.querySelector("#comment5pm");
-//   var output_div9 = document.querySelector("#comment5pm");
-//   var save_button9 = document.querySelector("#button5pm");
 
-//   save_button9.addEventListener("click", updateOutput9);
-
-//   output_div9.textContent = localStorage.getItem("content9");
-//   input_textarea9.value = localStorage.getItem("content9");
-
-//   function updateOutput9() {
-//     localStorage.setItem("content9", input_textarea9.value);
-
-//     output_div9.textContent = input_textarea9.value;
-//   }
-// }
 
