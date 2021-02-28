@@ -1,14 +1,14 @@
 window.onload = function(){
   colorCode();
-  dataNine();
-  dataTen();
-  // elevenAM();
-  // twelvePM();
-  // onePM();
-  // twoPM();
-  // threePM();
-  // fourPM();
-  // fivePM();
+  data9();
+  data10();
+  data11();
+  data12();
+  data1();
+  data2();
+  data3();
+  data4();
+  data5();
  }
 
 var timeDis = $("#time-display");
@@ -23,14 +23,14 @@ var event3 = $("#input3pm")
 var event4 = $("#input4pm")
 var event5 = $("#input5pm")
 var button9 = $("#button9am")
-var button10 = $("#input10am")
+var button10 = $("#button10am")
 var button11 = $("#button11am")
-var button12 = $("#button12am")
-var button1 = $("#button1am")
-var button2 = $("#button2am")
-var button3 = $("#button3am")
-var button4 = $("#button4am")
-var button5 = $("#button5am")
+var button12 = $("#button12pm")
+var button1 = $("#button1pm")
+var button2 = $("#button2pm")
+var button3 = $("#button3pm")
+var button4 = $("#button4pm")
+var button5 = $("#button5pm")
 
 console.log(now)
 //Date&time
@@ -108,40 +108,84 @@ function colorCode() {
   }
 }
 
+//localStorage Date
 // 9Am
-function dataNine() {
-  event9.text (localStorage.getItem("content"));
+function data9() {
+  event9.text (localStorage.getItem("Event9"));
 }
+
 button9.on("click", function(){
-  localStorage.setItem("content", event9.val());
+  localStorage.setItem("Event9", event9.val());
 });
 
 
 // // 10AM
-function dataTen() {
-  event10.text (localStorage.getItem("content2"));
+function data10() {
+  event10.text (localStorage.getItem("Event10"));
 }
 button10.on("click", function(){
-  localStorage.setItem("content2", event10.val());
+  localStorage.setItem("Event10", event10.val());
 });
 
 // // 11AM
-function dataEle() {
-  event11.text (localStorage.getItem("content2"));
+function data11() {
+  event11.text (localStorage.getItem("Event11"));
 }
 button11.on("click", function(){
-  localStorage.setItem("content3", event11.val());
+  localStorage.setItem("Event11", event11.val());
 });
+
+
 // // 12PM
+function data12() {
+  event12.text (localStorage.getItem("Event12"));
+}
+button12.on("click", function(){
+  localStorage.setItem("Event12", event12.val());
+});
+
 
 // // 1PM
+function data1() {
+  event1.text (localStorage.getItem("Event1"));
+}
+button1.on("click", function(){
+  localStorage.setItem("Event1", event1.val());
+});
+
 
 // // 2PM
+function data2() {
+  event2.text (localStorage.getItem("Event2"));
+}
+button2.on("click", function(){
+  localStorage.setItem("Event2", event2.val());
+});
+
 
 // // 3PM
+function data3() {
+  event3.text (localStorage.getItem("Event3"));
+}
+button3.on("click", function(){
+  localStorage.setItem("Event3", event3.val());
+});
+
 
 // // 4PM
+function data4() {
+  event4.text (localStorage.getItem("Event4"));
+}
+button4.on("click", function(){
+  localStorage.setItem("Event4", event4.val());
+});
+
 
 // // 5PM
-
+function data5() {
+  event5.text (localStorage.getItem("Event5"));
+}
+button5.on("click", function(){
+  localStorage.setItem("Event5", event5.val());
+});
 
