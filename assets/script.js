@@ -21,12 +21,10 @@ saveBtn.on("click", function(e){
     if (valueInput === "") {
         eventDisplay.text('No event scheduled');
         eventDisplay.removeClass("hide");
-        removeBtn.removeClass("hide");
         saveInput.addClass("hide");
     } else {
         eventDisplay.text(valueInput);
         eventDisplay.removeClass("hide");
-        removeBtn.removeClass("hide");
         saveInput.addClass("hide");
         localStorage.setItem("eventDetail", valueInput);
     };
@@ -37,6 +35,5 @@ removeBtn.on("click", function(e){
     e.preventDefault();
     eventDisplay.Text = "";
     eventDisplay.addClass("hide");
-    removeBtn.addClass("hide");
     saveInput.removeClass("hide");
 });
