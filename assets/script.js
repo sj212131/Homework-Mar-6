@@ -18,6 +18,10 @@ saveBtn.on("click", function(e){
     e.preventDefault();
     var value = saveInput.text();
     console.log(value)
+    // if (value === "") {
+    //     alert("Please input your event!");
+    //     return;
+    // } else {
         eventDisplay.text(value);
         eventDisplay.removeClass("hide");
         removeBtn.removeClass("hide");
