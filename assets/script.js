@@ -1,9 +1,8 @@
 var timeDis = $("#time-display");
-var saveBtn = $("#saveBtn");
-var removeBtn = $("#removeBtn");
-var saveInput = $("#input");
-var eventDisplay = $("#eventDisplay");
-var eventClass = $("event")
+var saveBtn = $(".btn-primary");
+var removeBtn = $(".btn-remove");
+var saveInput = $(".inputText");
+var eventDisplay = $(".event");
 
 
 function handleTimeDisplay(){
@@ -14,19 +13,25 @@ function handleTimeDisplay(){
 setInterval(handleTimeDisplay, 1000);
 
 
+
 saveBtn.on("click", function(e){
     e.preventDefault();
-    var value = saveInput.text();
-    console.log(value)
-    // if (value === "") {
-    //     alert("Please input your event!");
-    //     return;
-    // } else {
-        eventDisplay.text(value);
+    var valueInput = saveInput.val();
+    console.log(valueInput)
+    if (valueInput === "") {
+        eventDisplay.text('No event scheduled');
         eventDisplay.removeClass("hide");
         removeBtn.removeClass("hide");
         saveInput.addClass("hide");
-    });
+    } else {
+        eventDisplay.text(valueInput);
+        eventDisplay.removeClass("hide");
+        removeBtn.removeClass("hide");
+        saveInput.addClass("hide");
+        localStorage.setItem("eventDetail", valueInput);
+    };
+    
+});
 
 removeBtn.on("click", function(e){
     e.preventDefault();
