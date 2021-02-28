@@ -1,54 +1,43 @@
-# 📆 Work Day Scheduler
-
-A simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery and Moment.js.
-
-
-## Deployment
-
-Demo: https://rosajen27.github.io/work-day-scheduler/
-
-![day planner demo](./Assets/05-third-party-apis-homework-demo.png)
-
-## Built With
-
-  * HTML
-  * CSS
-  * JavaScript
-  * jQuery
-  * Moment.js
-
-## Authors
-
-  * **Jennifer Rosa**
-    [Rosajen27](https://rosajen27.github.io/)
+# Homework-Mar-6
+==================================================================================================
 
 
-## License
+Home assignment 
+--------------------------------------------------------------------------------------------------
+Background:
 
-![License](https://img.shields.io/badge/license-MIT%20License-blue.svg)
+This is Homework due on March 6. Practice of JavaScript
 
-This project is licensed under the MIT License.
+--------------------------------------------------------------------------------------------------
+Install
 
-Copyright (c) 2021 Jennifer Rosa
+This project uses VS Code, GitBash, Please check you have correctly installed those program 
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Please ensure your GitLab and Github account created with SSH key.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+--------------------------------------------------------------------------------------------------
+Usage （purpose）
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Practice of JavaScript
 
-## Acknowledgments
+--------------------------------------------------------------------------------------------------
+Contributing 
 
-  * Trilogy Education Services
+for future reference 
+
+--------------------------------------------------------------------------------------------------
+License 
+
+for future reference 
+
+--------------------------------------------------------------------------------------------------
+
+## Review
+
+You are required to submit BOTH of the following for review:
+
+* The URL of the deployed application.
+        https://sj212131.github.io/Homework-Feb-27/
+        
+* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+        https://github.com/sj212131/Homework-Feb-27
