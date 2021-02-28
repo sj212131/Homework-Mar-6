@@ -12,3 +12,7 @@
 .btn {
     border-color:var(--yellowgreen);
 }
+
+.hide {
+    display: none;
+}
