@@ -6,7 +6,7 @@ Home assignment
 --------------------------------------------------------------------------------------------------
 Background:
 
-This is Homework due on March 6. Practice of JavaScript
+This is Homework due on March 6. Practice of JavaScript, HTML, CSS, 3rd API (Moment.js; bootstrap; Jquery)
 
 --------------------------------------------------------------------------------------------------
 Install
@@ -18,7 +18,7 @@ Please ensure your GitLab and Github account created with SSH key.
 --------------------------------------------------------------------------------------------------
 Usage （purpose）
 
-Practice of JavaScript
+Practice of Practice of JavaScript, HTML, CSS, 3rd API (Moment.js; bootstrap; Jquery)
 
 --------------------------------------------------------------------------------------------------
 Contributing 
@@ -37,7 +37,7 @@ for future reference
 You are required to submit BOTH of the following for review:
 
 * The URL of the deployed application.
-        https://sj212131.github.io/Homework-Feb-27/
+        https://sj212131.github.io/Homework-Mar-6/
         
 * The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-        https://github.com/sj212131/Homework-Feb-27
+        https://github.com/sj212131/Homework-Mar-6
